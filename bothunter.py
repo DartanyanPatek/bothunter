@@ -17,15 +17,6 @@ mylist = ['!', '?', '*', '$', '"', '%', '@', '&', '#', '^', '(', ')', '_', "'", 
 chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 
-activationcode = 'Vkdai2o1'
-
-activation = input("Enter your activation code:")
-
-if activation == activationcode:
-    print("Welcome to the team!")
-else:
-    print("Wrong")
-    sys.exit()
 
 token = input('Enter your autorization token:') 
 
